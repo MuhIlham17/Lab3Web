@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Form</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat List</h1>
+    </header>
+
+    <section id="Order-list">
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Pemrograman Web</li>
+            <li>Sistem Informasi</li>
+            <li>Basis Data</li>
+        </ol>
+    </section>
+
+    <section id="Unorder-list">
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Jaringan Komputer</li>
+            <li>Struktur Data</li>
+            <li>Algoritma &amp; Pemrograman</li>
+        </ul>
+    </section>
+
+    <section id="Description-list">
+        <h2>Description List</h2>
+        <dl>
+            <dt>Fakultas Teknik</dt>
+            <dd>Fakultas Industri</dd>
+            <dd>Fakultas Informatika</dd>
+            <dd>Fakultas Lingkungan</dd>
+            <dt>Fakultas Ekonomi dan Bisnis</dt>
+            <dd>Akuntansi</dd>
+            <dd>Manajemen</dd>
+            <dd>Bisnis Digital</dd>
+        </dl>    
+    </section>
+
+    <!-- Dropdown Menu -->
+    <section id="Dropdown-menu">
+        <h2>Dropdown Menu</h2>
+        <label for="prodi">Pilih Program Studi:</label>
+        <select id="prodi">
+            <option value="informatika">Informatika</option>
+            <option value="sistem-informasi">Sistem Informasi</option>
+            <option value="teknik-komputer">Teknik Komputer</option>
+            <option value="bisnis-digital">Bisnis Digital</option>
+        </select>
+    </section>
+
+    <!-- Listbox with Multiple Selection -->
+    <section id="Listbox">
+        <h2>Listbox (Multiple Selection)</h2>
+        <label for="subjects">Pilih Mata Kuliah:</label>
+        <select id="subjects" multiple size="5">
+            <option value="pemrograman-web">Pemrograman Web</option>
+            <option value="sistem-informasi">Sistem Informasi</option>
+            <option value="basis-data">Basis Data</option>
+            <option value="jaringan-komputer">Jaringan Komputer</option>
+            <option value="struktur-data">Struktur Data</option>
+            <option value="algoritma-pemrograman">Algoritma &amp; Pemrograman</option>
+        </select>
+    </section>
+
+</body>
+</html>
